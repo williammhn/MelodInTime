@@ -125,7 +125,7 @@ function SearchPage() {
                 <Card.Body>
                   <Card.Title>Instructions</Card.Title>
                   <Card.Text>
-                    Connect to Spotify with your own account. <br></br> Then, enter a date in the search bar to find matching music and articles.
+                    Connect to Spotify with your own account. Then, enter a date in the search bar to find matching music and articles. If there are somme issues with loading the album, make sure that you're connected to Spotify.
                   </Card.Text>
                   <Button variant="secondary" onClick={toggleInstructions}>Close</Button>
                 </Card.Body>
