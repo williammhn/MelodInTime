@@ -14,7 +14,9 @@ The app provides an interactive and minimalist interface with features like musi
 1. [Features](#features)
 2. [Technologies Used](#technologies-used)
 3. [Project Structure](#project-structure)
-4. [How It Works](#how-it-works)
+4. [Setup and Installation](#setup-and-installation)
+5. [How It Works](#how-it-works)
+6. [Screenshots](#screenshots)
 
 
 ---
@@ -68,6 +70,41 @@ melod-in-time/
 
 ---
 
+## Setup and Installation
+
+### Prerequisites
+1. **Node.js** installed on your system.
+2. **Spotify Developer Account** to generate a client ID and secret.
+3. **New York Times Developer Account** for the API key.
+
+### Steps
+1. Clone this repository:
+   ```bash
+   git clone https://github.com/your-username/melod-in-time.git
+   cd melod-in-time
+   ```
+2. Install dependencies:
+   ```bash
+   npm install react react-dom react-router-dom axios react-bootstrap bootstrap @fortawesome/fontawesome-free react-icons express dotenv cors
+   ```
+3. Create a `.env` file in the root directory and configure:
+   ```env
+   SPOTIFY_CLIENT_ID=your_spotify_client_id
+   SPOTIFY_CLIENT_SECRET=your_spotify_client_secret
+   NYT_API_KEY=your_nyt_api_key
+   BACKEND_PORT=4000
+   ```
+4. Start the backend server:
+   ```bash
+   node server.js
+   ```
+5. Start the React frontend:
+   ```bash
+   npm start
+   ```
+
+---
+
 ## How It Works
 
 1. **Login with Spotify**:
@@ -84,6 +121,20 @@ melod-in-time/
 4. **Navigation**:
    - Users can return to previous pages or explore additional music tracks.
 
+## Screenshots
+
+### 1. **Search Page**
+- A minimalist date input with Spotify login functionality.
+![search-page](image.png)
+  
+### 2. **Read Page**
+- Displays article details alongside a Spotify embed for related music.
+![read-page](image-1.png)
+
+### 3. **Other Music Page**
+- Suggests alternative music tracks, categorized by "Same Year" and "Same Artist."
+![suggests-page](image-2.png)
+---
 
 ## License
 
@@ -92,3 +143,5 @@ This project is licensed under the MIT License. See the `LICENSE` file for more 
 ---
 
 **Developed by MORHAN William.**
+
+
