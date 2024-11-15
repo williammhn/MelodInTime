@@ -1,24 +1,20 @@
-import SearchBar from './SearchBar.jsx'
-import NYT from './NYTapi.jsx'
-import './App.css'
-
+import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
+import 'bootstrap/dist/css/bootstrap.min.css';
+import './App.css';
+import SearchPage from './SearchPage';
+import ReadPage from './ReadPage';
+import OtherMusicPage from './OtherMusicPage';
 
 function App() {
-
-  const printDate = (date) => {
-    console.log("Working. Date is :", date);
-  }
-
-
-
   return (
-    <>
-    <div>
-      <SearchBar props={printDate}/>
-      <NYT/>
-    </div>
-    </>
-  )
+    <Router>
+      <Routes>
+        <Route path="/" element={<SearchPage />} />
+        <Route path="/article" element={<ReadPage />} /> 
+        <Route path="/other-music" element={<OtherMusicPage />} />
+      </Routes>
+    </Router>
+  );
 }
 
-export default App
+export default App;
