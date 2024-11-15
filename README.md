@@ -89,10 +89,9 @@ melod-in-time/
    ```
 3. Create a `.env` file in the root directory and configure:
    ```env
-   SPOTIFY_CLIENT_ID=your_spotify_client_id
-   SPOTIFY_CLIENT_SECRET=your_spotify_client_secret
-   NYT_API_KEY=your_nyt_api_key
-   BACKEND_PORT=4000
+   CLIENT_ID=your_spotify_client_id
+   CLIENT_SECRET=your_spotify_client_secret
+   API_NYT_KEY=your_nyt_api_key
    ```
 4. Start the backend server:
    ```bash
