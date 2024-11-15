@@ -80,7 +80,7 @@ melod-in-time/
 ### Steps
 1. Clone this repository:
    ```bash
-   git clone https://github.com/your-username/melod-in-time.git
+   git clone https://github.com/williammhn/MelodInTime.git
    cd melod-in-time
    ```
 2. Install dependencies:
