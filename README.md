@@ -93,13 +93,9 @@ melod-in-time/
    CLIENT_SECRET=your_spotify_client_secret
    API_NYT_KEY=your_nyt_api_key
    ```
-4. Start the backend server:
+4. Start the React:
    ```bash
-   node server.js
-   ```
-5. Start the React frontend:
-   ```bash
-   npm start
+   npm run dev
    ```
 
 ---
