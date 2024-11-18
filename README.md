@@ -74,7 +74,7 @@ melod-in-time/
 
 ### Prerequisites
 1. **Node.js** installed on your system.
-2. **Spotify Developer Account** to generate a client ID and secret.
+2. **Spotify Developer Account** to generate a client ID, secret and recall link (http://localhost:4000/spotify-callback).
 3. **New York Times Developer Account** for the API key.
 
 ### Steps
